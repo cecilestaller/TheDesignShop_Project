@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "karla_var";
+    src: url(./../fonts/Karla-VariableFont_wght.ttf);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    width: 1360px;
+    margin: 40px 40px;
+    font-family: "karla_var";
+}
+
+/* ==== General Stylings ===== */
+
+h1 {
+    color: #323A45;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.nav_list > li {
+    color: #323A45;
+    font-size: 0.625rem;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #000;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.375rem;
+}
+
+.brand {
+    color: #848484;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.375rem;
+}
+
+h4 {
+    color: #000;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* === HEADER === NAB-BAR ======== */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    margin-bottom: 40px;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 56px;
+}
+
+/* ======= MAIN ========= */
+
+
+/* Article BIG */
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_wrapper {
+    padding-block: 20px;
+}
+
+/* Article SMALL */
+
+
+/* ==== GRID ====== */
+
+.grid_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.article_big {
+    grid-column: 1/4;
+}
+
+/* IMG Hover */
+
+img:hover {
+    opacity: 0.5;
+}
+
+/* ==== FOOTER ===== */
+
+.footer_grid_wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr 2fr;
+    gap: 16px;
+    row-gap: 28px;
+    margin-top: 48px;
+}
+
+
+/* Footer Stylings */
+
+footer a {
+    display: block;
+}
+
+.footer_grid_wrapper article:nth-of-type(5) {
+    font-size: 0.75rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+.footer_grid_wrapper article:nth-of-type(6) {
+    font-size: 0.75rem;
+    color: #323A45;
+}
+
+.footer_grid_wrapper article:nth-of-type(7) {
+    font-size: 0.75rem;
+}
+
+.footer_grid_wrapper article:nth-of-type(7) a {
+    display: inline;
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.footer_grid_wrapper article:nth-of-type(8) {
+    font-size: 0.625rem;
+    color: #323A45;
+}
+
+.footer_grid_wrapper article:nth-of-type(9) {
+    font-size: 0.625rem;
+    color: #848484;
+}
+
+
